@@ -1,3 +1,5 @@
+import os
+
 import iluxaMod as ilm
 
 database = ilm.postgreSQL_connect(user="postgres", 
@@ -11,3 +13,10 @@ db = database.db
 ILMtools = ilm.tools()
 pick = ILMtools.pick
 unpick = ILMtools.unpick
+
+FILESLIST = []
+
+for filename in FILESLIST:
+    pass
+    
+    
