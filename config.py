@@ -17,7 +17,14 @@ unpick = ILMtools.unpick
 
 FILESLIST = []
 
-for filename in FILESLIST:
-    pass
+class SysFunc:
+    def __init__(self):
+        pass
+    def exists(self):
+        pass
+    
+    def create_files(self):
+        for filename in FILESLIST:
+            pass
     
     
