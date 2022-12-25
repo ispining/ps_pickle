@@ -20,11 +20,14 @@ FILESLIST = []
 class SysFunc:
     def __init__(self):
         pass
-    def exists(self):
-        pass
+    
+    def file_not_exists(self, file_name):
+        return filename not in os.listdir()
     
     def create_files(self):
         for filename in FILESLIST:
-            pass
+            if self.file_not_exists(filename):
+                pick(filename, [])
+                
     
     
